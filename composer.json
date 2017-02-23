@@ -1,0 +1,24 @@
+{
+    "name": "wark/miniostorage",
+    "description": "minio oss filesystem storage for laravel 5+",
+    "keywords": ["oss", "laravel", "filesystems", "storage"],
+    "require": {
+        "aws/aws-sdk-php": "^3.0.0",
+        "php": ">=5.5.0"
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wandrew",
+            "email": "wandrewcworkshop@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "WArk\\Minio\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
