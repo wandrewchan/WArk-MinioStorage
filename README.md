@@ -31,7 +31,7 @@ WArk\Minio\Providers\MinioStorageServiceProvider::class,
 ```
 
 ####To publish the config settings in Laravel 5 use:
-```php
+```bat
 php artisan vendor:publish
 ```
 >This will add an miniostorage.php config file to your config folder.
