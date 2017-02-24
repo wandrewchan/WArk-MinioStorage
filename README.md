@@ -4,7 +4,8 @@
 You can download the minio oss server from [here](https://github.com/minio/minio).
 ```
 Minio is an object storage server. Size of an object can range from a few KBs to a maximum of 5TB.
-It is best suited for storing unstructured data such as photos, videos, log files, backups and container / VM images. 
+It is best suited for storing unstructured data such as photos, videos, log files, backups 
+and container / VM images. 
 
 Minio server is light enough to be bundled with the application stack, similar to NodeJS, Redis and MySQL.
 ```
