@@ -37,7 +37,7 @@ php artisan vendor:publish
 
 This will add an miniostorage.php config file to your config folder.
 
-in .env fill in the following fields：
+Set Environment Variable in .env file
 ```php
 MINIO_ACCESS_KEY=<access_key>
 MINIO_ACCESS_SECRET=<access_secret>
@@ -45,3 +45,22 @@ MINIO_ACCESS_REGION=null
 MINIO_BUCKET_NAME=<bucket>
 MINIO_ACCESS_ENDPOINT=http://localhost:9000
 ```
+
+##Usage
+
+Use it like below:
+Save Image/Video/Object
+
+```php
+MinioStorage::store('key/key', Input::file('file'));
+```
+
+
+Retrieve Image/Video/Object
+
+```php
+MinioStorage::get('key/key', Input::file('file'));
+```
+
+Use `Input::file('file')` to get the uploaded file and put it directly
+
