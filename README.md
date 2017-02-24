@@ -95,8 +95,32 @@ MinioStorage::removeObject('key');
 ```php
 MinioStorage::removeObjectWithBucket('bucket','key');
 ```
+>Delete the specified object with specified bucket
+
+####Remove Bucket
 
 ```php
-MinioStorage::removeObject('key');
+MinioStorage::removeBucket('bucketName');
 ```
->Delete the specified object
+>Delete the specified bucket
+
+####Remove Bucket Async
+
+```php
+MinioStorage::removeBucketAsync('bucketName');
+```
+>Delete the specified bucket asynchronously
+
+####Create Bucket
+
+```php
+MinioStorage::createBucket('bucketName');
+```
+>Create new bucket
+
+####Create Bucket Async
+
+```php
+MinioStorage::createBucketAsync('bucketName');
+```
+>Create new bucket asynchronously
