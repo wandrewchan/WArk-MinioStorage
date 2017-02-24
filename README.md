@@ -25,3 +25,12 @@ php artisan vendor:publish
 ```
 
 This will add an miniostorage.php config file to your config folder.
+
+in .env fill in the following fields：
+```php
+MINIO_ACCESS_KEY=<access_key>
+MINIO_ACCESS_SECRET=<access_secret>
+MINIO_ACCESS_REGION=null
+MINIO_BUCKET_NAME=<bucket>
+MINIO_ACCESS_ENDPOINT=http://localhost:9000
+```
