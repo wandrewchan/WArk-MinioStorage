@@ -76,9 +76,27 @@ MinioStorage::getWithBucket('key/key');
 MinioStorage::listObjects();
 ```
 
-####List out the objects
+####List out the objects with specified bucket
 
 ```php
 MinioStorage::listObjectsWithBucket();
 ```
 >Specify the bucket and list out the object from the bucket.
+
+####Remove Object
+
+```php
+MinioStorage::removeObject('key');
+```
+>Delete the specified object
+
+####Remove Object with specified bucket
+
+```php
+MinioStorage::removeObjectWithBucket('bucket','key');
+```
+
+```php
+MinioStorage::removeObject('key');
+```
+>Delete the specified object
