@@ -83,20 +83,6 @@ MinioStorage::listObjectsWithBucket();
 ```
 >Specify the bucket and list out the object from the bucket.
 
-####Create Bucket
-
-```php
-MinioStorage::createBucket('bucketName');
-```
->Create new bucket
-
-####Create Bucket Async
-
-```php
-MinioStorage::createBucketAsync('bucketName');
-```
->Create new bucket asynchronously
-
 ####Remove Object
 
 ```php
@@ -110,6 +96,20 @@ MinioStorage::removeObject('key');
 MinioStorage::removeObjectWithBucket('bucket','key');
 ```
 >Delete the specified object with specified bucket
+
+####Create Bucket
+
+```php
+MinioStorage::createBucket('bucketName');
+```
+>Create new bucket
+
+####Create Bucket Async
+
+```php
+MinioStorage::createBucketAsync('bucketName');
+```
+>Create new bucket asynchronously
 
 ####Remove Bucket
 
