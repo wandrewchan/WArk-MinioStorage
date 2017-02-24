@@ -1,4 +1,5 @@
 # WArk-MinioStorage
+Minio oss filesystem storage for laravel 5+
 
 ## Minio Server
 You can download the minio oss server from [here](https://github.com/minio/minio).
