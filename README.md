@@ -60,6 +60,25 @@ MinioStorage::store('key/key', Input::file('file'));
 ####Retrieve Image/Video/Object
 
 ```php
-MinioStorage::get('key/key', Input::file('file'));
+MinioStorage::get('key/key');
+```
+>Get the object by key string.
+
+```php
+MinioStorage::getWithBucket('key/key');
+```
+>Specify the bucket and get the object from the bucket.
+
+
+####List out the objects
+
+```php
+MinioStorage::listObjects();
 ```
 
+####List out the objects
+
+```php
+MinioStorage::listObjectsWithBucket();
+```
+>Specify the bucket and list out the object from the bucket.
