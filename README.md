@@ -34,10 +34,9 @@ WArk\Minio\Providers\MinioStorageServiceProvider::class,
 ```php
 php artisan vendor:publish
 ```
+>This will add an miniostorage.php config file to your config folder.
 
-This will add an miniostorage.php config file to your config folder.
-
-Set Environment Variable in .env file
+####Set Environment Variable in `.env` file
 ```php
 MINIO_ACCESS_KEY=<access_key>
 MINIO_ACCESS_SECRET=<access_secret>
@@ -49,18 +48,18 @@ MINIO_ACCESS_ENDPOINT=http://localhost:9000
 ##Usage
 
 Use it like below:
-Save Image/Video/Object
+####Save Image/Video/Object
 
 ```php
 MinioStorage::store('key/key', Input::file('file'));
 ```
 
+>Use `Input::file('file')` to get the uploaded file and put it directly. `key/key` can be any string.
 
-Retrieve Image/Video/Object
+
+####Retrieve Image/Video/Object
 
 ```php
 MinioStorage::get('key/key', Input::file('file'));
 ```
-
-Use `Input::file('file')` to get the uploaded file and put it directly
 
