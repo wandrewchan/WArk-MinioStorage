@@ -14,7 +14,7 @@ Minio server is light enough to be bundled with the application stack, similar t
 ## Installation
 
 ####Open the command prompt and type in the following. This will download the package.
-```php
+```bat
 composer require wark/miniostorage
 ```
 
