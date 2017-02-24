@@ -124,3 +124,17 @@ MinioStorage::removeBucket('bucketName');
 MinioStorage::removeBucketAsync('bucketName');
 ```
 >Delete the specified bucket asynchronously
+
+####Copy Object
+
+```php
+MinioStorage::copyObject('key', 'toBucketName', 'toKey');
+```
+>Copy existing object from to another bucket with new key name
+
+####Copy Object From 
+
+```php
+MinioStorage::copyObjectFrom('fromBucketName', 'key', 'toBucketName', 'toKey');
+```
+>Copy object from specified bucket to another bucket with new key name
