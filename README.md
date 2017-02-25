@@ -58,7 +58,7 @@ MinioStorage::store('key/key', Input::file('file'));
 
 ```php
 $data = file_get_content('data');
-MinioStorage::store('key/key', data, true);
+MinioStorage::store('key/key', $data, true);
 ```
 
 >Use the third argument as `true` to upload the raw data as object.
