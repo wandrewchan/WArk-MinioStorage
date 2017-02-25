@@ -1,5 +1,5 @@
 # WArk-MinioStorage
-[![Laravel 5.x](https://img.shields.io/badge/Laravel-4.2|5.x-orange.svg)](http://laravel.com)
+[![Laravel 5.x](https://img.shields.io/badge/Laravel-5.x-orange.svg)](http://laravel.com)
 
 Minio oss filesystem storage for laravel 5+
 
