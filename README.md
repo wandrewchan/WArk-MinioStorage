@@ -3,8 +3,8 @@
 [![DUB](https://img.shields.io/badge/License-MIT License-blue.svg)](https://github.com/wandrewchan/WArk-MinioStorage/blob/master/LICENSE)
 [![DUB](https://img.shields.io/badge/Packgist-v1.1.0-orange.svg)](https://packagist.org/packages/wark/miniostorage)
 [![DUB](https://img.shields.io/badge/Composer-compatible-green.svg)](https://packagist.org/packages/wark/miniostorage)
-[![DUB](https://img.shields.io/badge/Platform-PHP5.6|7-624C92.svg)](https://packagist.org/packages/wark/miniostorage)
-
+[![DUB](https://img.shields.io/badge/Language-PHP5.6|7-624C92.svg)](http://php.net/downloads.php)
+![DUB](https://img.shields.io/badge/Platform-Web-brightgreen.svg)
 
 Minio oss filesystem storage for laravel 5+
 
