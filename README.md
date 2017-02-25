@@ -1,4 +1,6 @@
 # WArk-MinioStorage
+[![Laravel 4.2|5.x](https://img.shields.io/badge/Laravel-4.2|5.x-orange.svg)](http://laravel.com)
+
 Minio oss filesystem storage for laravel 5+
 
 ## Minio Server
@@ -145,3 +147,7 @@ MinioStorage::copyObject('key', 'toBucketName', 'toKey');
 MinioStorage::copyObjectFrom('fromBucketName', 'key', 'toBucketName', 'toKey');
 ```
 >Copy object from specified bucket to another bucket with new key name
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/wandrewchan/WArk-MinioStorage/blob/master/LICENSE) for more information.
