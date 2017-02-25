@@ -57,7 +57,7 @@ MinioStorage::store('key/key', Input::file('file'));
 >Use `Input::file('file')` to get the uploaded file and put it directly. `key/key` can be any string.
 
 ```php
-$data = file_get_content('data');
+$data = file_get_contents('data');
 MinioStorage::store('key/key', $data, true);
 ```
 
