@@ -28,18 +28,18 @@ class MinioStorage
         ]);
 	}
 
-	public function storeWithBucket($bucket, $key, $object)
+	public function storeWithBucket($bucket, $key, $object, $bIsRawData = false)
 	{
 		return $this->objS3->putObject([
             'Bucket' => $bucket,
             'Key'    => $key,
-            'Body'   => file_get_contents($object)
+            'Body'   => $bIsRawData?$object:file_get_contents($object)
         ]);
 	}
 
-	public function store($key, $object)
+	public function store($key, $object, $bIsRawData = false)
 	{
-		return $this->storeWithBucket($this->bucket, $key, $object);
+		return $this->storeWithBucket($this->bucket, $key, $object, $bIsRawData);
 	}
 
 	public function get($key, $rename = null)
