@@ -2,7 +2,7 @@
 [![Laravel 5.x](https://img.shields.io/badge/Laravel-5.x-orange.svg)](http://laravel.com)
 [![DUB](https://img.shields.io/badge/License-MIT License-blue.svg)](https://github.com/wandrewchan/WArk-MinioStorage/blob/master/LICENSE)
 [![DUB](https://img.shields.io/badge/Packgist-v1.1.0-orange.svg)](https://packagist.org/packages/wark/miniostorage)
-[![DUB](https://img.shields.io/badge/Composer-compatible-green.svg)](https://packagist.org/packages/wark/miniostorage)
+[![DUB](https://img.shields.io/badge/Composer-Compatible-green.svg)](https://packagist.org/packages/wark/miniostorage)
 [![DUB](https://img.shields.io/badge/Language-PHP5.6|7.x-624C92.svg)](http://php.net/downloads.php)
 ![DUB](https://img.shields.io/badge/Platform-Web-brightgreen.svg)
 
