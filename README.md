@@ -79,7 +79,7 @@ MinioStorage::get('key/key');
 >Get the object by key string.
 
 ```php
-MinioStorage::getWithBucket('key/key');
+MinioStorage::getWithBucket('bucket', 'key/key');
 ```
 >Specify the bucket and get the object from the bucket.
 
