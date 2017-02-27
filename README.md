@@ -111,6 +111,20 @@ MinioStorage::removeObjectWithBucket('bucket','key');
 ```
 >Delete the specified object with specified bucket
 
+####Check Bucket Exist
+
+```php
+MinioStorage::checkBucketExist('bucketName');
+```
+>Check if the bucket exist or not. Return true if exist and false otherwise.
+
+####Create Bucket If Not Exist
+
+```php
+MinioStorage::createBucketIfNotExist('bucketName');
+```
+>Create the bucket if the bucket does not exist.
+
 ####Create Bucket
 
 ```php
