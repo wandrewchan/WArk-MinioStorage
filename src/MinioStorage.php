@@ -118,6 +118,28 @@ class MinioStorage
         return null;
 	}
 
+	public function checkBucketExist($bucket)
+	{
+		$buckets = $this->listBuckets();
+		foreach($buckets as $oneBucket)
+		{
+			if ($oneBucket["Name"] == $bucket)
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	public function createBucketIfNotExist($bucket)
+	{
+		if (!$this->checkBucketExist($bucket))
+		{
+			$this->createBucket($bucket);
+		}
+	}
+
 	public function copyObject($key, $toBucket, $toKey)
 	{
         return $this->copyObjectFrom($this->bucket, $key, $toBucket, $toKey);
